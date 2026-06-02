@@ -5,6 +5,8 @@ import Stats from "@/components/stats";
 import Status from "@/components/status";
 import AktHraneDiv from "@/components/akthranediv";
 import AktHranaHra from "@/components/akthranahra";
+import Hra from "@/components/hra";
+import Knihovna from "@/components/knihovna";
 
 export default function Home() {
   return (
@@ -58,6 +60,55 @@ export default function Home() {
           progress={20}
         />
       </AktHraneDiv>
+
+      <div className="flex">
+        <h2>LIBRARY ARCHIVE</h2>
+        <a href="" className="">VIEW ALL COLLECTION</a>
+      </div>
+      <Knihovna>
+        <Hra
+          hodnoceni={9.5}
+          obrazek=""
+          obrazekAlt=""
+          nazev="Void Walker"
+          stav="FINISHED"
+          platforma="PC"
+        />
+        <Hra
+          hodnoceni={8.0}
+          obrazek=""
+          obrazekAlt=""
+          nazev="Logic Gates"
+          stav="BACKLOG"
+          platforma="SWITCH"
+        />
+        <Hra
+          hodnoceni={7.2}
+          obrazek=""
+          obrazekAlt=""
+          nazev="Apex Drift"
+          stav="DROPPED"
+          platforma="PS5"
+        />
+        <Hra
+          hodnoceni={10}
+          obrazek=""
+          obrazekAlt=""
+          nazev="Neon Mantis"
+          stav="FINISHED"
+          platforma="SWITCH"
+        />
+        <Hra
+          hodnoceni={9.0}
+          obrazek=""
+          obrazekAlt=""
+          nazev="Ashen Soul"
+          stav="WISHLIST"
+          platforma="PC"
+        />
+      </Knihovna>
+      
+
     </div>
   );
 }
