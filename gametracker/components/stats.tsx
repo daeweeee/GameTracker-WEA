@@ -1,6 +1,6 @@
 export default function Stats({ children } ) {
     return (
-        <div>
+        <div className="flex gap-10">
             { children }
         </div>
     );
