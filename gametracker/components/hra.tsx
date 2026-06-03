@@ -1,6 +1,6 @@
 export default function Hra({hodnoceni, obrazek, obrazekAlt, nazev, stav, platforma} : {hodnoceni: number, obrazek: string, obrazekAlt: string, nazev: string, stav: string, platforma: string}) {
     return (
-        <div className="w-1/5"> 
+        <div className="w-1/5 rounded-2xl"> 
             <div> // Sem dát obrázek na pozadí
                 <h4>{hodnoceni}</h4>
             </div>

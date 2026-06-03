@@ -1,7 +1,6 @@
-export default function NameLogo() {
+export default function Name() {
     return (
         <div className="">
-            <img src="" alt="" />
             <p>GameTracker</p>
         </div>
     );
