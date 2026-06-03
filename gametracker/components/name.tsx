@@ -1,6 +1,6 @@
 export default function Name() {
     return (
-        <div className="">
+        <div className="font-bold text-2xl">
             <p>GameTracker</p>
         </div>
     );

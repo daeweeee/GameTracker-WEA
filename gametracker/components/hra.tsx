@@ -4,11 +4,9 @@ export default function Hra({hodnoceni, obrazek, obrazekAlt, nazev, stav, platfo
             <div> // Sem dát obrázek na pozadí
                 <h4>{hodnoceni}</h4>
             </div>
-            <h5>{nazev}</h5>
+            <h5 className="text-sm font-bold">{nazev}</h5>
             <div className="flex gap-1">
-                <h6>{stav}</h6>
-                [[Tecka sem]]
-                <h6>{platforma}</h6>
+                <h6 className="text-xs text-gray-400">{stav} • {platforma}</h6>
             </div>
             
         </div>
