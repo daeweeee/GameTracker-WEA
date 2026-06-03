@@ -48,22 +48,22 @@ export default function Home() {
       
       <AktHraneDiv>
         <AktHranaHra
-          obrazek=""
-          obrazekAlt=""
+          obrazek="" // Sem dát cestu k obrázku
+          obrazekAlt="" // Sem popisek
           platforma="PC / Steam"
           nazev="Cyber Nexus 2077"
           coDelam="Procházím neonové ulice rozpadající se digitální utopie. Level 42 Netrunner build."
           progress={75}
-          barva="" // Modra
+          barva="" // Modrá
         />
         <AktHranaHra
-          obrazek=""
-          obrazekAlt=""
+          obrazek="" // Sem dát cestu k obrázku
+          obrazekAlt="" // Sem popisek
           platforma="PlayStation 5"
           nazev="Eldritch Echoes"
           coDelam="Právě jsem dorazil k Forbidden Archive. Boss fight je tvrdý, atmosféra neuvěřitelná."
           progress={20}
-          barva="" // Fialova
+          barva="" // Fialová
         />
       </AktHraneDiv>
 
@@ -119,7 +119,9 @@ export default function Home() {
         - udělat procenta, aniž by hodnota dokončení musela být string<br/>
         - udělat CSS<br/>
         - udělat některé věci méně "prasácky"<br/>
-        - roztáhnout ty divy přes celou sířku stránky
+        - roztáhnout ty divy přes celou sířku stránky<br/>
+        - vyřešit responzivitu
+        - dát obsah CURRENTLY PLAYING do gridu
       </p>
       
     </div>
