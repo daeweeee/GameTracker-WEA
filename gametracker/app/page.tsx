@@ -23,7 +23,7 @@ export default function Home() {
         <Status
           name="TOTAL LIBRARY"
           value="248"
-          color=""
+          color="white"
         />
         <Status
           name="COMPLETION RATE"
@@ -33,7 +33,7 @@ export default function Home() {
         <Status
           name="HOURS LOGGED"
           value="1240"
-          color=""
+          color="white"
         />
         <Status
           name="WISHLISTED"
@@ -53,7 +53,7 @@ export default function Home() {
           nazev="Cyber Nexus 2077"
           coDelam="Procházím neonové ulice rozpadající se digitální utopie. Level 42 Netrunner build."
           progress={75}
-          barva="" // Modrá
+          color="cyan" // Modrá
         />
         <AktHranaHra
           obrazek="" // Sem dát cestu k obrázku
@@ -61,7 +61,7 @@ export default function Home() {
           nazev="Eldritch Echoes"
           coDelam="Právě jsem dorazil k Forbidden Archive. Boss fight je tvrdý, atmosféra neuvěřitelná."
           progress={20}
-          barva="" // Fialová
+          color="darkviolet" // Fialová
         />
       </AktHraneDiv>
 
@@ -77,6 +77,7 @@ export default function Home() {
           nazev="Void Walker"
           stav="FINISHED"
           platforma="PC"
+          color="cyan"
         />
         <Hra
           hodnoceni={8.0}
@@ -85,6 +86,7 @@ export default function Home() {
           nazev="Logic Gates"
           stav="BACKLOG"
           platforma="SWITCH"
+          color="white"
         />
         <Hra
           hodnoceni={7.2}
@@ -93,6 +95,7 @@ export default function Home() {
           nazev="Apex Drift"
           stav="DROPPED"
           platforma="PS5"
+          color="darkviolet"
         />
         <Hra
           hodnoceni={10}
@@ -101,6 +104,7 @@ export default function Home() {
           nazev="Neon Mantis"
           stav="FINISHED"
           platforma="SWITCH"
+          color="cyan"
         />
         <Hra
           hodnoceni={9.0}
@@ -109,6 +113,7 @@ export default function Home() {
           nazev="Ashen Soul"
           stav="WISHLIST"
           platforma="PC"
+          color="white"
         />
       </Knihovna>
         <hr />
