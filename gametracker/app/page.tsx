@@ -23,12 +23,12 @@ export default function Home() {
         <Status
           name="TOTAL LIBRARY"
           value="248"
-          color="neon-cyan"
+          color=""
         />
         <Status
           name="COMPLETION RATE"
           value="64"
-          color=""
+          color="cyan"
         />
         <Status
           name="HOURS LOGGED"
@@ -38,7 +38,7 @@ export default function Home() {
         <Status
           name="WISHLISTED"
           value="12"
-          color=""
+          color="darkviolet"
         />
       </Stats>
       <div className="flex">
