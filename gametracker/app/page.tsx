@@ -22,22 +22,23 @@ export default function Home() {
       <Stats>
         <Status
           name="TOTAL LIBRARY"
-          value="248"
+          value= {248}
           color="white"
         />
         <Status
           name="COMPLETION RATE"
-          value="64"
+          value= {64}
           color="cyan"
+          unit="%"
         />
         <Status
           name="HOURS LOGGED"
-          value="1240"
+          value= {1240}
           color="white"
         />
         <Status
           name="WISHLISTED"
-          value="12"
+          value= {12}
           color="darkviolet"
         />
       </Stats>
@@ -48,7 +49,7 @@ export default function Home() {
       
       <AktHraneDiv>
         <AktHranaHra
-          obrazek="" // Sem dát cestu k obrázku
+          obrazek="/akt_hrane_1.jpg"
           platforma="PC / Steam"
           nazev="Cyber Nexus 2077"
           coDelam="Procházím neonové ulice rozpadající se digitální utopie. Level 42 Netrunner build."
@@ -56,7 +57,7 @@ export default function Home() {
           color="cyan" // Modrá
         />
         <AktHranaHra
-          obrazek="" // Sem dát cestu k obrázku
+          obrazek="/akt_hrane_2.jpg"
           platforma="PlayStation 5"
           nazev="Eldritch Echoes"
           coDelam="Právě jsem dorazil k Forbidden Archive. Boss fight je tvrdý, atmosféra neuvěřitelná."
@@ -72,8 +73,8 @@ export default function Home() {
       <Knihovna>
         <Hra
           hodnoceni={9.5}
-          obrazek=""
-          obrazekAlt=""
+          obrazek="/hra_1.jpg"
+          obrazekAlt="Void Walker cover"
           nazev="Void Walker"
           stav="FINISHED"
           platforma="PC"
@@ -81,8 +82,8 @@ export default function Home() {
         />
         <Hra
           hodnoceni={8.0}
-          obrazek=""
-          obrazekAlt=""
+          obrazek="/hra_2.jpg"
+          obrazekAlt="Logic Gates cover"
           nazev="Logic Gates"
           stav="BACKLOG"
           platforma="SWITCH"
@@ -90,8 +91,8 @@ export default function Home() {
         />
         <Hra
           hodnoceni={7.2}
-          obrazek=""
-          obrazekAlt=""
+          obrazek="/hra_3.jpg"
+          obrazekAlt="Apex Drift cover"
           nazev="Apex Drift"
           stav="DROPPED"
           platforma="PS5"
@@ -99,8 +100,8 @@ export default function Home() {
         />
         <Hra
           hodnoceni={10}
-          obrazek=""
-          obrazekAlt=""
+          obrazek="/hra_4.jpg"
+          obrazekAlt="Neon Mantis cover"
           nazev="Neon Mantis"
           stav="FINISHED"
           platforma="SWITCH"
@@ -108,8 +109,8 @@ export default function Home() {
         />
         <Hra
           hodnoceni={9.0}
-          obrazek=""
-          obrazekAlt=""
+          obrazek="/hra_5.jpg"
+          obrazekAlt="Ashen Soul cover"
           nazev="Ashen Soul"
           stav="WISHLIST"
           platforma="PC"
@@ -119,12 +120,10 @@ export default function Home() {
         <hr />
       <p>
         <br/>TODO:<br/>
-        - udělat procenta, aniž by hodnota dokončení musela být string<br/>
         - udělat CSS<br/>
         - udělat některé věci méně "prasácky"<br/>
         - vyřešit responzivitu?<br/>
         - dát obsah CURRENTLY PLAYING do gridu, aby to nedělalo... věci<br/>
-        - dodělat barvy
       </p>
       
     </div>

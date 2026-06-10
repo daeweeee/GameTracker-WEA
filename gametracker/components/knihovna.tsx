@@ -1,6 +1,8 @@
-export default function Knihovna({ children } ) {
+import { ReactNode } from "react";
+
+export default function Knihovna({ children }: { children?: ReactNode } ) {
     return (
-        <div className="flex mb-10 gap-5">
+        <div className="h-120 flex mb-10 gap-5">
             { children }
         </div>
     );
